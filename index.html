@@ -65,6 +65,7 @@
                 margin-left: 13px;
                 width: 89%;
             }
+           
         }
     </style>
 
@@ -149,30 +150,27 @@
                                         <!-- Profile info -->
                                         <div id="profile_info">
                                             <h1 id="name" class="transition-02">我的简历</h1>
-                                            <h4 class="line"> 求职意向：↓
-                                                <br>web前端 &amp; 网页制作</h4>
+                                            <h6 style="font-size: 20px;font-weight:bold">求职意向</h6>
+                                            <h4 class="line">web前端 &amp; 网页制作</h4>
                                             <!-- <h6><span class="fa fa-mabrp-marker"></span> 地点</h6> -->
                                         </div>
                                         <!-- End Profile info -->
 
                                         <!-- Profile Description -->
                                         <div id="profile_desc">
-                                            <p id="time">
-                                                一行介绍
-                                            </p>
+                                                <h6 style="font-size: 20px;font-weight:bold">自我评价</h6>
+                                                <p> 热爱互联网行业，关注行业动态。学习能力强，对新事物充满好奇。工作态度认真责，具有团队合作精神。做自己感兴趣的事时会注重细节并认真完成。 </p>
                                         </div>
                                         <!-- End Profile Description -->
 
                                         <!-- Name -->
                                         <div id="profile_social">
-                                            <h6>我的社交简介</h6>
-
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                                            <a href="#"><i class="fa fa fa-dribbble"></i></a>
-                                            <a href="#"><i class="fa fa-foursquare"></i></a>
-                                            <div class="clear"></div>
+                                            <!-- <h6>我的github</h6>
+                                            <a  href="https://github.com/baiyi233"><i class="fa fa-github"></i></a>
+                                            <div class="clear"></div> -->
+                                            <p id="time">
+                                              
+                                            </p>
                                         </div>
                                         <!-- End Name -->
 
@@ -213,7 +211,7 @@
                                         <!-- profile -->
                                         <div id="profile" class="content_2">
                                             <!-- .title -->
-                                            <h1 class="h-bloc">简介 - 关于我</h1>
+                                            <h1 class="h-bloc">简历 - 关于我</h1>
 
                                             <div class="row top-p">
                                                 <div class="col-md-6 profile-l">
@@ -234,16 +232,16 @@
                                                         </li>
 
                                                         <li>
-                                                            <i class="glyphicon glyphicon-calendar"></i>
+                                                            <i class="glyphicon glyphicon-map-marker"></i>
                                                             <label>年龄</label>
                                                             <span class="value">24</span>
                                                             <div class="clear"></div>
                                                         </li>
 
                                                         <li>
-                                                            <i class="glyphicon glyphicon-map-marker"></i>
-                                                            <label>地址</label>
-                                                            <span class="value">福建省福州市仓山区金祥路中庚国际华府7号楼1604</span>
+                                                            <i class="glyphicon glyphicon-calendar"></i>
+                                                            <label>工作经验</label>
+                                                            <span class="value">两年半</span>
                                                             <div class="clear"></div>
                                                         </li>
 
@@ -263,8 +261,8 @@
 
                                                         <li>
                                                             <i class="glyphicon glyphicon-globe"></i>
-                                                            <label>网站</label>
-                                                            <span class="value"><a href="#" target="_blank">www.baidu.com</a></span>
+                                                            <label>个人主页</label>
+                                                            <span class="value"><a href="http://www.qidaikeji.xyz/my" target="_blank">点击进入</a></span>
                                                             <div class="clear"></div>
                                                         </li>
 
@@ -275,9 +273,9 @@
                                                         <i class="fa fa-quote-left"></i> 2015年6月毕业于福建船政交通职业学院 信息系 计算机网络技术 专业
                                                     </p>
 
-                                                    <p style="margin-bottom:20px">
+                                                    <!-- <p style="margin-bottom:20px">
                                                         <i class="fa fa-quote-left"></i> 热爱互联网行业，关注行业动态。学习能力强，对新事物充满好奇。工作态度认真责，具有团队合作精神。做自己感兴趣的事时会注重细节并认真完成。
-                                                    </p>
+                                                    </p> -->
 
                                                 </div>
                                                 <!-- End left-wrap -->
@@ -287,7 +285,6 @@
                                                     <div class="cycle-slideshow">
                                                         <img src="images/img-profile/about_1.jpg" alt="" />
                                                         <img src="images/img-profile/about_2.png" alt="" />
-                                                        <img src="images/img-profile/about_3.png" alt="" />
                                                     </div>
 
                                                 </div>
@@ -400,7 +397,13 @@
                                                             <div class="skill-bar-percent">85%</div>
                                                         </div>
                                                         <!-- /.skillbar -->
-
+                                                        <!-- .skillbar -->
+                                                        <div class="skillbar clearfix" data-percent="85%">
+                                                            <div class="skillbar-title"><span>HTML5.0</span></div>
+                                                            <div class="skillbar-bar"></div>
+                                                            <div class="skill-bar-percent">85%</div>
+                                                        </div>
+                                                        <!-- /.skillbar -->
                                                         <!-- .skillbar -->
                                                         <div class="skillbar clearfix" data-percent="60%">
                                                             <div class="skillbar-title"><span>css</span></div>
@@ -560,11 +563,12 @@
 
                                                 <!-- #filters -->
                                                 <ul id="filters" class="clearfix">
-                                                    <li><span class="filter active" data-filter="catWeb catGraphic catMotion logo">All</span></li>
-                                                    <li><span class="filter" data-filter="catWeb">网页</span></li>
-                                                    <li><span class="filter" data-filter="catGraphic">微信小程序</span></li>
-                                                    <li><span class="filter" data-filter="catMotion">web app</span></li>
-                                                    <li><span class="filter" data-filter="logo">游戏</span></li>
+                                                    <li><span class="filter active" data-filter="webs web wxapp webapp game">所有</span></li>
+                                                    <li><span class="filter" data-filter="webs">网站</span></li>
+                                                    <li><span class="filter" data-filter="web">网页</span></li>
+                                                    <li><span class="filter" data-filter="wxapp">微信小程序</span></li>
+                                                    <li><span class="filter" data-filter="webapp">WEBAPP</span></li>
+                                                    <li><span class="filter" data-filter="game">游戏</span></li>
                                                 </ul>
                                                 <!-- /#filters -->
 
@@ -572,16 +576,67 @@
                                                 <div id="portfoliolist">
 
                                                     <!-- .portfolio -->
-                                                    <div class="portfolio catWeb" data-cat="catWeb">
+                                                    <div class="portfolio web" data-cat="web">
+                                                            <div class="portfolio-wrapper">
+                                                                <a href="images/portfolio/web1.jpg" rel="portfolio">
+                                                                    <img src="images/portfolio/web1.jpg" alt="" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">电大学历提升宣传网页PC1版图一</a>
+                                                                           
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                    </div>
+                                                    <!-- /.portfolio -->
+
+                                                    <!-- .portfolio -->
+                                                    <div class="portfolio web" data-cat="web">
+                                                            <div class="portfolio-wrapper">
+                                                                <a href="images/portfolio/web2.jpg" rel="portfolio">
+                                                                    <img src="images/portfolio/web2.jpg" alt="" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">电大学历提升宣传网页PC1版图二</a>
+                                                                           
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                    </div>
+                                                    <!-- /.portfolio -->
+
+                                                    <!-- .portfolio -->
+                                                    <div class="portfolio web" data-cat="web">
+                                                            <div class="portfolio-wrapper">
+                                                                <a href="images/portfolio/web3.jpg" rel="portfolio">
+                                                                    <img src="images/portfolio/web3.jpg" alt="" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">教师资格小测试</a>
+                                                                           
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                    </div>
+                                                    <!-- /.portfolio -->
+
+                                                    <!-- .portfolio -->
+                                                    <div class="portfolio webs" data-cat="webs">
                                                         <!-- .portfolio-wrapper -->
                                                         <div class="portfolio-wrapper">
                                                             <a href="images/portfolio/web1.png" rel="portfolio">
 
-                                                                <img src="images/portfolio/web1.png" alt="Visual Infography" />
+                                                                <img src="images/portfolio/web1.png" alt="" />
                                                                 <div class="label">
                                                                     <div class="label-text">
-                                                                        <a class="text-title">SEO网站</a>
-                                                                        <span class="text-category">Web Design</span>
+                                                                        <a class="text-title" href="http://www.fjjszgw.com">点击进入 SEO网站</a>
+                                                                        <span class="text-category">福建教师资格网</span>
                                                                     </div>
                                                                     <div class="label-bg"></div>
                                                                 </div>
@@ -592,15 +647,15 @@
                                                     <!-- /.portfolio -->
 
                                                     <!-- .portfolio -->
-                                                    <div class="portfolio catWeb" data-cat="catWeb">
+                                                    <div class="portfolio webs" data-cat="webs">
                                                         <!-- .portfolio-wrapper -->
                                                         <div class="portfolio-wrapper">
-                                                            <a href="images/portfolio/web2.png" rel="portfolio">
-                                                                <img src="images/portfolio/web2.png" alt="Sonor's Design" />
+                                                            <a href="images/portfolio/web2.png" rel="portfolio" title="用HTML+JS+PHP编写的有前端有后台的完整网站，上线过，用于大学校园夜间零食交易.">
+                                                                <img src="images/portfolio/web2.png" alt="" />
                                                                 <div class="label">
                                                                     <div class="label-text">
-                                                                        <a class="text-title">随便外卖网</a>
-                                                                        <span class="text-category">Web design</span>
+                                                                        <a class="text-title">电商网站</a>
+                                                                        <span class="text-category">随便外卖网</span>
                                                                     </div>
                                                                     <div class="label-bg"></div>
                                                                 </div>
@@ -610,35 +665,18 @@
                                                     </div>
                                                     <!-- /.portfolio -->
 
-                                                    <!-- .portfolio -->
-                                                    <div class="portfolio catMotion" data-cat="catMotion">
-                                                        <!-- .portfolio-wrapper -->
-                                                        <div class="portfolio-wrapper">
-                                                            <a href="images/portfolio/webapp1.jpg" rel="portfolio">
-                                                                <img src="images/portfolio/webapp1.jpg" alt="Typography Company" />
-                                                                <div class="label">
-                                                                    <div class="label-text">
-                                                                        <a class="text-title">考生报名系统</a>
-                                                                        <span class="text-category">web app</span>
-                                                                    </div>
-                                                                    <div class="label-bg"></div>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        <!-- /.portfolio-wrapper -->
-                                                    </div>
-                                                    <!-- /.portfolio -->
+                                                   
 
                                                     <!-- .portfolio -->
-                                                    <div class="portfolio catGraphic" data-cat="catGraphic">
+                                                    <div class="portfolio wxapp" data-cat="wxapp">
                                                         <!-- .portfolio-wrapper -->
                                                         <div class="portfolio-wrapper">
-                                                            <a href="images/portfolio/wxapp1.png" title="Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien." rel="portfolio">
-                                                                <img src="images/portfolio/wxapp1.png" alt="Techlion" />
+                                                            <a href="images/portfolio/wxapp1.png" title="公司宣传功能齐全" rel="portfolio">
+                                                                <img src="images/portfolio/wxapp1.png" alt="" />
                                                                 <div class="label">
                                                                     <div class="label-text">
                                                                         <a class="text-title">微信小程序作品1</a>
-                                                                        <span class="text-category">small app</span>
+                                                                        <span class="text-category">福建教师资格网</span>
                                                                     </div>
                                                                     <div class="label-bg"></div>
                                                                 </div>
@@ -649,15 +687,15 @@
                                                     <!-- /.portfolio -->
 
                                                      <!-- .portfolio -->
-                                                     <div class="portfolio catGraphic" data-cat="catGraphic">
+                                                     <div class="portfolio wxapp" data-cat="wxapp">
                                                         <!-- .portfolio-wrapper -->
                                                         <div class="portfolio-wrapper">
-                                                            <a href="images/portfolio/wxapp2.png" title="Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien." rel="portfolio">
-                                                                <img src="images/portfolio/wxapp2.png" alt="Techlion" />
+                                                            <a href="images/portfolio/wxapp2.png" title="公司宣传,功能齐全" rel="portfolio">
+                                                                <img src="images/portfolio/wxapp2.png" alt="" />
                                                                 <div class="label">
                                                                     <div class="label-text">
                                                                         <a class="text-title">微信小程序作品2</a>
-                                                                        <span class="text-category">small app</span>
+                                                                        <span class="text-category">用心商务秘书</span>
                                                                     </div>
                                                                     <div class="label-bg"></div>
                                                                 </div>
@@ -668,15 +706,15 @@
                                                     <!-- /.portfolio -->
 
                                                     <!-- .portfolio -->
-                                                    <div class="portfolio logo" data-cat="logo">
+                                                    <div class="portfolio game" data-cat="game">
                                                         <!-- .portfolio-wrapper -->
                                                         <div class="portfolio-wrapper">
-                                                            <a href="images/portfolio/game1.png" title="Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien." rel="portfolio">
+                                                            <a href="images/portfolio/game1.png" title="一款用cocos做的网页游戏" rel="portfolio">
                                                                 <img src="images/portfolio/game1.png" alt="Mobi Sock" />
                                                                 <div class="label">
                                                                     <div class="label-text">
-                                                                        <a class="text-title">MugenFighter</a>
-                                                                        <span class="text-category">game</span>
+                                                                        <a class="text-title" href="https://baiyi233.github.io/MugenFighter/">MugenFighter 点击开始玩</a>
+                                                                        <span class="text-category">H5游戏</span>
                                                                     </div>
                                                                     <div class="label-bg"></div>
                                                                 </div>
@@ -685,7 +723,24 @@
                                                         <!-- /.portfolio-wrapper -->
                                                     </div>
                                                     <!-- /.portfolio -->
-
+                                                     <!-- .portfolio -->
+                                                     <div class="portfolio webapp" data-cat="webapp">
+                                                            <!-- .portfolio-wrapper -->
+                                                            <div class="portfolio-wrapper">
+                                                                <a href="images/portfolio/webapp1.jpg" rel="portfolio" title="用于考生报名，录入报名信息，录音审查接待质量。">
+                                                                    <img src="images/portfolio/webapp1.jpg" alt="" />
+                                                                    <div class="label">
+                                                                        <div class="label-text">
+                                                                            <a class="text-title">报名系统</a>
+                                                                            <span class="text-category">考生报名系统</span>
+                                                                        </div>
+                                                                        <div class="label-bg"></div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <!-- /.portfolio-wrapper -->
+                                                        </div>
+                                                        <!-- /.portfolio -->
                                                     
                                                     <div class="clear"></div>
 
@@ -961,7 +1016,7 @@
         if (hour >= 17 && hour < 24) {
             str = "现在是晚上时间" + hour + "点， 休息时间呢";
         }
-        document.getElementById("time").innerHTML = str;
+        document.getElementById("time").innerHTML = "温馨提示：" + str;
     </script>
     <!--[if lt IE 9]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
